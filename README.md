@@ -6,8 +6,8 @@ Hier wird ein Back- und Frontend erstellt, bei dem ein tokenbasiertes Login erm�
 
 USERSTORIES:
 
-Als Benutzer möchte ich ein neues Konto erstellen können, um auf die Multiuser-Software mit meinen eigenen Anmeldedaten zugreifen zu können.
+Als Benutzer möchte ich mich in das System einloggen können, um auf meine persönliche Adressliste zuzugreifen.
 
-Als Projektleiter möchte ich Teammitglieder einladen können, einem bestimmten Projekt innerhalb der Multiuser-Software beizutreten.
+Als Administrator möchte ich die Möglichkeit haben, neue Benutzerkonten zu erstellen und zu verwalten.
 
-Als Teammitglied möchte ich Benachrichtigungen erhalten, wenn ich eingeladen werde, einem Projekt in der Multiuser-Software beizutreten.
+Als Benutzer möchte ich meine Kontakte nach verschiedenen Kriterien filtern können, wie z.B. nach Name, Stadt oder Postleitzahl.
