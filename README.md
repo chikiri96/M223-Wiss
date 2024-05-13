@@ -34,6 +34,18 @@ Frontend_
 
 React ist wie digitales LEGO. Du baust deine Website aus wiederverwendbaren Bausteinen, den sogenannten Komponenten. Diese Komponenten kannst du immer wieder verwenden, um Zeit zu sparen. Außerdem aktualisiert React nur die Teile deiner Seite, die sich tatsächlich ändern, was die Performance verbessert. Es ist einfach zu lernen und hat eine große Gemeinschaft von Entwicklern, die dir helfen können.
 
+Backend_
+
+Das Backend der Adressverwaltung ist wie das Gehirn einer Maschine, das Anfragen verarbeitet, auf die Datenbank zugreift und dem Frontend die benötigten Informationen liefert. Es wurde mit Java und Spring Boot entwickelt, was uns hilft, schnell und effizient RESTful-Services zu erstellen.
+
+Um sicherzustellen, dass nur autorisierte Benutzer auf unsere Daten zugreifen können, verwenden wir Spring Security. Dieses Tool ermöglicht es uns, Benutzer anzumelden und zu überprüfen, ob sie die nötigen Berechtigungen haben. Wenn sich ein Benutzer anmeldet, erhalten sie ein spezielles Token, das sie verwenden können, um ihre Identität zu bestätigen.
+
+Unsere Daten werden in einer MySQL-Datenbank gespeichert, in der wir separate Tabellen für Benutzer und Adressen haben. Die Sicherheit unserer Daten ist uns wichtig, daher werden Benutzerpasswörter verschlüsselt, um sicherzustellen, dass sie geschützt sind.
+
+Unsere API bietet verschiedene Endpunkte, über die Benutzer sich anmelden können oder neue Konten erstellen können. Außerdem können sie über spezielle Endpunkte Adressen hinzufügen, aktualisieren oder löschen.
+
+Insgesamt haben wir ein umfassendes Sicherheitskonzept implementiert, um die Vertraulichkeit, Integrität und Verfügbarkeit unserer Daten zu gewährleisten. Wir verwenden Verschlüsselung, HTTPS für sichere Datenübertragungen und sorgen dafür, dass nur autorisierte Benutzer auf unsere Daten zugreifen können.
+
 
 
 
