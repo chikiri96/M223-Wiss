@@ -1,0 +1,4 @@
+CREATE DATABASE wiss_db;
+USE wiss_db;
+CREATE USER 1 IDENTIFIED BY "1";
+GRANT ALL ON wiss_db.* TO 1;
